@@ -7,4 +7,20 @@
      justify-content: center;
      align-items: center;    
     }
-   
+
+.background_light{
+  background-color: azure;
+  color:black;
+}
+.background_dark{
+  background-color:darkslategray;
+  color:gainsboro;
+}
+.temperature_component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+Button{
+    max-height: 80px;
+}

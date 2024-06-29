@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function TodoList() {
+export default function TodoList() {
 // state for storage todo list
     const [todos, setTodos] = useState([]);
     // state for store current input in an input field
@@ -31,4 +31,3 @@ function TodoList() {
      );
 }
 
-export default TodoList;
