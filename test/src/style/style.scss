@@ -24,3 +24,79 @@
 Button{
     max-height: 80px;
 }
+
+* {
+  font-family: sans-serif;
+
+}
+input,
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+input {
+  display: block;
+  margin-bottom: 20px;
+}
+button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+}
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}
+.RadioGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.RadioOption {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+input {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+label {
+  cursor: pointer;
+}
+.App {
+  padding: 16px;
+  width: 400px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-right: 8px;
+}
+
+.Field {
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Row {
+  display: flex;
+  flex-direction: row;
+}
+
+label {
+  margin-bottom: 16px;
+}
+
+textarea {
+  height: 100px;
+}

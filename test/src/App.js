@@ -2,7 +2,7 @@
 // ffc
 // nfn
 import "./App.css";
-import "./style/style.css";
+import "./css/style.css";
 import Counter from "./components/counter";
 import InputForm from "./components/form";
 import MessagesList from "./components/list";
@@ -26,6 +26,19 @@ import { useState } from "react";
 import Article from "./components/router/article";
 import ProductApp from "./components/pagination/ProductApp";
 import TwoPages from "./components/twoPages/twoPages";
+import ReactContext from "./components/reactContext/ReactContext";
+import ThemedContext from "./components/reactContext/ThemeContext";
+import NotesContexts from "./components/reactContext/NotesContext";
+import WithStyles from "./components/reactContext/WithStyles";
+import CounterHOC from "./components/reactContext/CounterHOC";
+import CounterApp from "./components/redux/CounterApp";
+import AppUserProfile from "./components/reactContext/UserProfile/AppUserProfile";
+import AppLoading from "./components/loading/AppLoading";
+import ChangeThemeApp from "./components/redux/changeTheme/ChangeThemeApp";
+import MyVideo from "./components/videoExample";
+import AudioExample from "./components/audioExample";
+import Calculator from "./components/calculator";
+import FormValid from "./components/formValid";
 
 const label = { inputProps: { "aria-label": "Switch demo" } };
 const articles= [
@@ -37,7 +50,6 @@ const articles= [
 export default function App() {
   return (
     <div className="App">
-      <h1>Homework 4</h1>
 
       {/* <h1>Test File</h1> */}
       {/* <Timer />
@@ -116,7 +128,55 @@ export default function App() {
       {/* <ProductApp/> */}
 
 {/* ================================================================================ */}
-      <TwoPages/>   
+      {/* <TwoPages/>    */}
+
+{/* ================================================================================ */}
+      {/* <ReactContext/> */}
+
+{/* ================================================================================ */}
+      {/* <ThemedContext/> */}
+
+{/* ================================================================================ */}
+      {/* <NotesContexts/> */}
+
+{/* ================================================================================ */}
+      {/* <WithStyles/> */}
+
+{/* ================================================================================ */}
+      {/* <CounterHOC/>
+       */}
+{/* ================================================================================ */}
+       {/* <CounterApp/> */}
+
+{/* ================================================================================ */}
+    {/* <AppUserProfile/> */}
+
+{/* ================================================================================ */}
+      {/* <AppLoading/> */}
+
+{/* ================================================================================ */}
+       {/* <ChangeThemeApp/> */}
+
+{/* ================================================================================ */}
+      {/* <MyVideo/> */}
+
+{/* ================================================================================ */}
+      {/* <AudioExample/> */}
+
+{/* ================================================================================ */}
+       {/* <Calculator/> */}
+
+{/* ================================================================================ */}
+      <FormValid/>
+
+
+
+
+
+
+
+
+
 
     </div>
     
